@@ -1,0 +1,6 @@
+@Greentube.Weather_HostAddress = http://localhost:5149
+
+GET {{Greentube.Weather_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
