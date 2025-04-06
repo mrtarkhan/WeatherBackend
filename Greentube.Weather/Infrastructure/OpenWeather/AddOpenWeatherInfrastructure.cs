@@ -11,7 +11,7 @@ public static class AddOpenWeatherInfrastructure
         services.Configure<OpenWeatherOptions>(configuration.GetSection("OpenWeatherOptions"));
 
         services.AddHttpClient<IOpenWeatherService, OpenWeatherService>();
-
+        
         return services;
     }
 }
